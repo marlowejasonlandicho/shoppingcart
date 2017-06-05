@@ -26,8 +26,14 @@ Shopping Cart Exercise. Ability to compute a given number of plans subscribed by
 
 Make sure that Java 8 is installed on your machine and can be invoked on the command line. 
 Maven is also required to build and test the project. But by default, the application binaries are under ./target folder.
-You can get Java 8 here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-And Maven here: https://maven.apache.org/
+
+You can get Java 8 here: 
+	http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+And Maven here: 
+	https://maven.apache.org/
+
+## Runninng application
 
 Go to ./target folder and run the application via java command:
 
