@@ -10,16 +10,17 @@ Shopping Cart Exercise. Ability to compute a given number of plans subscribed by
 		pricingRuleBuilder.addLimitedDiscount("ult_small", 1, 3, 0.0);
 		pricingRuleBuilder.addFreebie("ult_medium", "1gb");
     
-    Cart cart = ShoppingCart.newCart(pricingRuleBuilder.getPricingRules());
+	    	Cart cart = ShoppingCart.newCart(pricingRuleBuilder.getPricingRules());
 
 		cart.add(ProductFactory.createStaticProduct("ult_small"));
 		cart.add(ProductFactory.createStaticProduct("ult_small"));
 		cart.add(ProductFactory.createStaticProduct("ult_small"));
 
 		cart.add(ProductFactory.createStaticProduct("ult_large"));
-    cart.add(ProductFactory.createStaticProduct("1gb"), new PromoCode("I<3AMAYSIM", 10, 0));
-    System.out.println(cart.total()); //Total amount
-    System.out.println(cart.items()); //List contents
+	   	cart.add(ProductFactory.createStaticProduct("1gb"), new PromoCode("I<3AMAYSIM", 10, 0));
+	    	
+		System.out.println(cart.total()); //Total amount
+	    	System.out.println(cart.items()); //List contents
 
 ## Installation
 
