@@ -1,6 +1,6 @@
 ## Synopsis
 
-Shopping Cart Exercise. Ability to compute a given number of plans subscribed by the user 
+Shopping Cart Exercise.
 
 
 ## Code Example
